@@ -1,0 +1,153 @@
+.container {
+    max-width: 960px;
+    position: relative;
+    text-align: center;
+}
+
+#mapaGoogleLoc {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+}
+
+    #mapaGoogleLoc iframe {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+
+#cabeceraIndex {
+    height: 100vh;
+    background-image: url('../img/portadaLocal.jpg');
+    background-position: center;
+    height: initial;
+    background-size: cover;
+
+}
+
+#recomendados h2 {
+    color: #403144;
+    text-align: center;
+}
+
+#recomendados {
+    padding-bottom: 70px;
+}
+
+    #recomendados img {
+        width: auto;
+        height: 120px;
+    }
+
+footer {
+    margin: 0 auto;
+    clear: both;
+    padding: 15px;
+    background-color: #004a7c;
+    float: left;
+    width: 100%;
+    align-items: center;
+    overflow: auto;
+}
+
+#mapaGoogleLoc {
+    height: 100px;
+}
+
+
+
+#footer-icons {
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    justify-content: right;
+    height: 100px;
+    margin: auto;
+    left: 0;
+    width: 373px;
+}
+
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    
+}
+
+    .site-header a {
+        color: #8e8e8e;
+        transition: color .15s ease-in-out;
+    }
+
+        .site-header a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+
+    .product-device::before {
+        position: absolute;
+        top: 10%;
+        right: 10px;
+        bottom: 10%;
+        left: 10px;
+        content: "";
+        background-color: rgba(255, 255, 255, .1);
+        border-radius: 5px;
+    }
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        flex: 1;
+    }
+}
+
+#templatemo_nav_top {
+    min-height: 40px;
+    
+}
+
+    #templatemo_nav_top * {
+        font-size: .9em !important;
+    }
+
+#templatemo_main_nav a {
+    color: #212934;
+}
+
+    #templatemo_main_nav a:hover {
+        color: #69bb7e;
+    }
+

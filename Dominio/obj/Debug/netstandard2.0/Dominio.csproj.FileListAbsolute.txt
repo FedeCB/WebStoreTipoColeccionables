@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\WebStoreTipoColeccionables\Dominio\bin\Debug\netstandard2.0\Dominio.deps.json
+C:\Users\user\source\repos\WebStoreTipoColeccionables\Dominio\bin\Debug\netstandard2.0\Dominio.dll
+C:\Users\user\source\repos\WebStoreTipoColeccionables\Dominio\bin\Debug\netstandard2.0\Dominio.pdb
+C:\Users\user\source\repos\WebStoreTipoColeccionables\Dominio\obj\Debug\netstandard2.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\WebStoreTipoColeccionables\Dominio\obj\Debug\netstandard2.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\WebStoreTipoColeccionables\Dominio\obj\Debug\netstandard2.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\WebStoreTipoColeccionables\Dominio\obj\Debug\netstandard2.0\Dominio.AssemblyInfo.cs
+C:\Users\user\source\repos\WebStoreTipoColeccionables\Dominio\obj\Debug\netstandard2.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WebStoreTipoColeccionables\Dominio\obj\Debug\netstandard2.0\Dominio.dll
+C:\Users\user\source\repos\WebStoreTipoColeccionables\Dominio\obj\Debug\netstandard2.0\Dominio.pdb

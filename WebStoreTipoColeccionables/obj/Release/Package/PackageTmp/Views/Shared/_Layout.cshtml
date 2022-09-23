@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Freakland</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="~/Content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Content/css/comic_style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rampart+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Neue">
+
+    <script src="https://kit.fontawesome.com/166b60345f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body >
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <div class="mx-2">
+                   
+                    <img class="img-fluid mx-1" src="~/Content/img/FreakLndLogo.png" alt="Logo Freakland" style="height: 100px" />
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+                <div class="collapse navbar-collapse" id="navbarScroll" style="font-family: Bangers; font-size:xx-large;">
+                    <ul class="nav me-auto my-2 my-lg-0 navbar-nav-scroll gap-5" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item "><a class="nav-link">@Html.ActionLink("Inicio", "Index", "Home", new { area = "" }, new { style = "text-decoration:none; height: 60px;" })</a></li>
+                        <li class="nav-item "><a class="nav-link">@Html.ActionLink("Acerca de", "About", "Home", new { area = "" }, new { style = "text-decoration:none; " })</a></li>
+                        <li class="nav-item "><a class="nav-link">@Html.ActionLink("Tienda", "Store", "Home", new { area = "" }, new { style = "text-decoration:none;" })</a></li>
+                        <li class="nav-item "><a class="nav-link">@Html.ActionLink("Contacto", "Contact", "Home", new { area = "" }, new { style = "text-decoration:none; " })</a></li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- Close Header -->
+
+    <main class="p-1" style="background-image: radial-gradient(circle, #ffd800, #c34c10);">
+
+        @RenderBody()
+
+    </main>
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+
+                    <h2 class="h2  border-bottom pb-3 border-light logo" style="color:white;">FreakLand</h2>
+
+                    <ul class="list-unstyled text-light footer-link-list">
+
+                        <li>
+                            <i class="fas fa-map-marker fa-fw"></i>
+                            18 de Julio 921 - Local 04
+                        </li>
+                        <li>
+                            <i class="fa fa-whatsapp fa-fw"></i>
+                            <a class="text-decoration-none" href="+598 93 982 929"></a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope-square fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:mundofreakland@gmail.com" style="color:white;">e-Mail</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-4 pt-5">
+
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Colecciones</h2>
+
+                    <ul class="list-unstyled text-light footer-link-list" >
+
+                        <li><a class="text-decoration-none" href="#" style="color:white;">Marvel</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:white;">DC</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:white;">TMNT</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:white;">Super Powers</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:white;">LOTR</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:white;">Master of the Universe</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:white;">Thundercats</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:white;">GI-Joe</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:white;">Figuras Anime</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:white;">Figuras Personajes de cine</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-4 pt-5">
+
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Información</h2>
+
+                    <ul class="list-unstyled text-light footer-link-list">
+
+                        <li>@Html.ActionLink("Inicio", "Index", "Home", null, new { style = "text-decoration:none; color: white;" })</li>
+                        <li>@Html.ActionLink("Acerca de", "About", "Home", null, new { style = "text-decoration:none; color: white;" })</li>
+                        <li>@Html.ActionLink("Tienda", "Store", "Home", null, new { style = "text-decoration:none; color: white;" })</li>
+                        <li>@Html.ActionLink("Contacto", "Contact", "Home", null, new { style = "text-decoration:none; color: white;" })</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="row text-light mb-4">
+
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+
+                <div class="col-auto me-auto">
+
+                    <ul class="list-inline text-left footer-icons">
+
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.facebook.com/MundoFreakland"><i class="fab fa-facebook fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-auto">
+
+                    @*<label class="sr-only" for="subscribeEmail">Email address</label>
+
+                    <div class="input-group mb-2">
+
+                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+
+                        <div class="input-group-text btn-success text-light">Subscribe</div>*@
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+
+                    <div class="col-12">
+
+                        <p class="text-left text-light">
+                            Copyright &copy; 2021 Freakland
+                            | Designed by Kopsur
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+<!-- End Footer -->
+</html>
+
+<!-- Start Script -->
+
+<script src="~/Scripts/bootstrap.bundle.min.js"></script>
+<script src="~/Scripts/custom.js"></script>
+<script src="~/Scripts/jquery-3.3.1.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+@*<script src="~/Content/js/javaScript.js"></script>*@
+<!-- End Script -->
+
+
+
+
